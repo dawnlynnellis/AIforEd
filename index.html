@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Navigation Hub</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 40px;
+            background-color: #e8f4f8;
+            color: #333;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #007bff;
+            margin-bottom: 30px;
+        }
+        .nav-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .nav-list li {
+            margin-bottom: 15px;
+        }
+        .nav-list a {
+            display: block;
+            padding: 12px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease, transform 0.2s;
+        }
+        .nav-list a:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
 
+    <div class="container">
+        <h1>📚 Course Information Hub</h1>
+        <p>Use the links below to navigate to key course resources.</p>
+        
+        <ul class="nav-list">
+            <li><a href="instructor.html">👤 Instructor Profile</a></li>
+            <li><a href="syllabus.html">📝 Course Syllabus</a></li>
+            <li><a href="https://www.google.com" target="_blank">🔗 External Course Homepage</a></li>
+        </ul>
+
+        <p style="margin-top: 30px; font-size: 0.9em; color: #777;">
+            Note: The first two links will only work correctly if you create and place the files <code>instructor.html</code> and <code>syllabus.html</code> in the same directory.
+        </p>
+    </div>
+
+</body>
+</html>
